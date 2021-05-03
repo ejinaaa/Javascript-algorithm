@@ -12,3 +12,9 @@ function solution(n) {
 }
 
 console.log(solution(4));
+
+function solution2(n) {
+  return '수박'.repeat(n - 1).substr(0, n);
+}
+
+console.log(solution2(3));
