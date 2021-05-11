@@ -19,3 +19,13 @@ console.log(solution('a234'));
 console.log(solution('1234'));
 console.log(solution('1a234a'));
 console.log(solution('12345'));
+
+function solution2(s) {
+  const regExp = /^\d{4}$|^\d{6}$/;
+  return regExp.test(s);
+}
+
+console.log(solution2('a234'));
+console.log(solution2('1234'));
+console.log(solution2('1a234a'));
+console.log(solution2('12345'));
